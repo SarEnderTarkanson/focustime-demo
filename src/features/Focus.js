@@ -6,7 +6,6 @@ import { spacing } from "../utils/sizes";
 
 export const Focus = ({ addSubject }) => {
   const [subject, setSubject] = useState(null);
-
   return (
     <View style={styles.container}>
       <View style={styles.inputContainer}>
